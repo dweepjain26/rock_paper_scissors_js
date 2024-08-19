@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.mtitle{
+   background-color:rgb(41, 38, 38);
+   color: rgb(255, 225, 169);
+   padding: 15px;
+   font-size: 40px;
+   text-align: center;
+}
+.game{
+    height: 25vh;
+    width:30vh;
+    border-radius: 50%;
+}
+#rock,#paper,#scissors{
+    height: 25vh;
+    width: 27vh;
+    border-radius: 50%;
+}
+.games{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 50px;
+}
+.game:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+.msg{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.winsStat{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(41, 38, 38);
+    padding: 15px;
+}
+.winuser{
+    color: rgb(0, 180, 0);
+}
+.wincom{
+    color: red;
+}
+.windraw{
+    color: blue;
+}
+.lastBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.newg{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-style:solid;
+    height: 20px;
+    width: 100px;
+    border-radius: 5px;
+    padding: 3px;
+}
+.newg:hover{
+    cursor: pointer;
+}
